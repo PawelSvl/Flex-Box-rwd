@@ -1,0 +1,626 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    background-color: #f6f7fa;
+}
+
+
+header {
+    background-color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav img {
+    height: 70px;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    display: block;
+    
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    line-height: 70px;
+    font-size: 2rem;
+}
+
+li:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.jumbotron {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100vh;
+    /*    background-image:url(img/drip-2806027_640.jpg);*/
+    background: url(http://www.overkill.pl/includes/img_news/30bac8fea1e08febb5a3.jpg) center;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.icons {
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.icon-tex p {
+    color: #cc0000;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.icon-tex h2 {
+    margin: 0;
+    color: #000;
+    font-size: 30px;
+}
+
+.bgr {
+    color: #cc0000;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.featured {
+    text-align: center;
+    border-top: solid 3px #000;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.featured h2 {
+    font-size: 2rem;
+}
+
+.featured p {
+    font-size: 1.2rem;
+}
+
+.galery {
+    margin: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-image: url(img/simple_dashed/simple_dashed_@2X.png);
+}
+
+figure {
+    width: 33.3%;
+    overflow: hidden;
+}
+
+figure img {
+    padding: 15px;
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.team {
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.team-photo {
+    padding: 15px;
+}
+
+.team img {
+    width: 100%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.team p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #000;
+}
+
+.team h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #cc0000;
+}
+
+
+
+.art-photo  {
+    max-width: 100%;
+    height:auto;
+}
+
+
+
+article {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    margin: 50px 0;
+    color: #000;
+    
+}
+
+
+article img {
+
+   max-width: 100%;
+    height:450px
+}
+
+
+
+
+.art-photo {
+    width: 35%;
+    overflow: hidden;
+    
+}
+
+
+
+.text {
+    width: 65%;
+    padding: 5px;
+/*    text-align: center;*/
+    font-size: 1.2rem;
+}
+
+aside {
+    width: 100%;
+    text-align: center;
+    margin: 35px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+aside p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+aside h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 2.9rem;
+    color: #cc0000;
+    font-family: 'Zeyada', cursive;
+}
+
+footer {
+    padding: 35px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #000;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.abaut {
+    width: 33%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact {
+    width: 33%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.adres {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.adres-text,
+.adres-stret {
+    text-align: center;
+    width: 50%;
+}
+
+.adres-stret {
+    text-align: center;
+    width: 50%;
+}
+
+.contact p {
+    margin: 5px;
+}
+
+.socialmedia {
+    text-align: center;
+    width: 33%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.socialmedia-text {
+    width: 100%;
+}
+
+.socialmedia-icons {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.media {
+    font-size: 25px;
+    margin: 7px;
+    width: 35px;
+    color: #fff;
+}
+
+.media:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: #cc0000;
+    color: #fff;
+}
+
+@media(max-width: 767px) {
+    header>nav>ul {
+        float: none;
+    }
+    header>nav>ul>li {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    }
+    header>nav>img {
+        display: block;
+        margin: 0 auto;
+    }
+   
+    aside {
+        display: table;
+        text-align: center;
+    }
+   
+   
+    span {
+        font-size: 2.3rem;
+    }
+    footer p {
+        font-size: 1.4rem;
+    }
+     footer {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    footer h2 {
+        font-size: 2.3rem;
+    }
+      article,
+    .icons {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .icons p {
+        font-size: 1.4rem;
+    }
+     .text p  {
+        font-size:1.8rem;
+    }
+    .adres {
+        font-size: 1.4rem;
+    }
+    .art-photo, .text, .icons, figure, .abaut, .socialmedia, .contact, .adres-text {
+        width: 100%;
+    }
+    .team {
+        display: table;
+    }
+    .team p {
+       font-size: 1.6rem; 
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+      header>nav>ul {
+        float: none;
+    }
+    header>nav>ul>li {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    }
+    header>nav>img {
+        display: block;
+        margin: 0 auto;
+    }   
+    nav ul li a {
+        font-size: 3rem;
+    }
+    nav img {
+    height: 100px;
+}
+    article p {
+        font-size: 3rem;
+    }
+    span {
+        font-size: 5rem;
+    }
+    article {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    figure {
+        width: 50%;
+    }
+    aside {
+        display: table;
+    }
+    aside p {
+        font-size: 3rem;
+    }
+    aside h4 {
+        font-size: 5rem;
+    }
+      footer {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+     footer p {
+        font-size: 2rem;
+    }
+    footer h2 {
+        font-size: 3rem;
+    }
+   
+    .jumbotron h1 {
+        font-size: 4rem;
+    }
+    .icons {
+        display: table;
+    }
+    .icons p {
+        font-size: 2.5rem;
+    }
+    .icons h2 {
+        font-size: 2.8rem;
+    }
+    .featured h2 {
+        font-size: 3rem;
+    }
+     .featured p {
+        font-size: 2rem;
+    }
+    .team {
+        display: table;
+    }
+    .team h3 {
+        font-size: 3rem;
+    }
+     .team p {
+        font-size: 2.6rem;
+    }
+    .art-photo, .text, .abaut, .socialmedia, .contact, .adres-text  {
+        width: 100%;
+    }
+    .adres {
+        font-size: 2rem; 
+    }
+    .media {
+        font-size: 3.5rem;
+        width: 50px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    nav ul li a {
+        font-size: 3rem;
+    }
+     nav img {
+         height: 80px;
+    }
+    nav ul {
+        padding-top: 7px;
+    }
+    article {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    article p {
+        font-size: 3rem;
+    }
+    figure {
+        width: 50%;
+    }
+    span {
+        font-size: 4rem;
+    }
+    aside {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    aside p {
+        font-size: 2.8rem;
+    }
+    aside h4 {
+        font-size: 5rem;
+    }
+    footer {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+      footer p {
+        font-size: 2rem;
+    }
+    footer h2 {
+        font-size: 3rem;
+    }
+  
+    .icons {
+        display: table;
+    }
+    .icons p {
+        font-size: 2.5rem;
+    }
+    .team {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .team-photo {
+        width: 50%;
+    }
+     .team h3 {
+        font-size: 3rem;
+    }
+     .team p {
+        font-size: 2.6rem;
+    }
+    .art-photo, .text, .abaut, .socialmedia, .contact, .adres-text {
+        width: 100%;
+    }
+    .numbers {
+        width: 50%;
+    }
+    .adres {
+        font-size: 2rem; 
+    }
+     .media {
+        font-size: 3.5rem;
+        width: 50px;
+    }
+      .featured p {
+        font-size: 2rem;
+    }
+
+}
